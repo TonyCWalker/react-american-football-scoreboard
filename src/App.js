@@ -19,7 +19,7 @@ function App() {
   const awayFieldGoal = e => {
     setAwayScore(awayScore + 3);
   };
-
+  // making a comment to test something.
   return (
     <div className="container">
       <section className="scoreboard">
