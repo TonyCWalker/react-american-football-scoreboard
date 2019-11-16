@@ -6,7 +6,7 @@
 .scoreboard {
   width: 58%;
   margin: 10rem auto;
-  background-color: #0b5402;
+  background-color: rgba(1, 1, 122, 0.952);
   color: white;
   border-radius: 0.5rem;
   margin-top: 10rem;
@@ -34,7 +34,7 @@
 }
 
 .home {
-  background-color: #656565;
+  background-color: purple;
 }
 
 .away {
@@ -86,8 +86,21 @@
 .quarter {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-end;
   place-items: center;
+}
+
+.ballOn__value{
+  margin-left: 2rem;
+}
+.down__value{
+  margin-left: 2rem;
+}
+.quarter__value{
+  margin-left: 3rem;
+}
+.toGo__value{
+  margin-left: 2rem;
 }
 
 .down__value,
@@ -119,4 +132,5 @@
 .awayButtons__fieldGoal {
   margin: 1rem;
   border-radius: 4px;
+  width: 200px;
 }
